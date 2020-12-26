@@ -24,10 +24,10 @@ const Product = ({ product, onAddToCart }) => {
       />
       <CardContent className={classes.cardContent}>
         <div>
-          <Typography varian="h4" gutterBottom>
+          <Typography variant="h5" gutterBottom>
             {product.name}
           </Typography>
-          <Typography varian="h4">
+          <Typography variant="body">
             {product.price.formatted_with_symbol}
           </Typography>
         </div>
